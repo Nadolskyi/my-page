@@ -1,0 +1,33 @@
+body {background-image: url(1P1070302.jpg);
+    background-size: cover; }
+* {margin: 0;}
+#audio { opacity:0.3; color: #2F4F4F;
+     }
+#audio:hover {opacity:1.0;  color: #2F4F4F;}
+.foto {text-align:center;}
+h1, h2 {text-align:center;
+    font-family: cursive}
+#audio {
+  position: fixed;
+  top: 0;
+  left: 0;
+ 
+}
+#bio, #contacts {
+    font-size: 25px ;
+    font-family: cursive;
+    padding: 5px;
+    position: relative;
+    float:left;
+    width:100px;
+    border:2px solid #889;
+    margin: 10px;
+    text-align:center;  }
+.clear {clear: both;}
+#box {position: relative;}
+#contacts {
+  position: absolute;
+  right: 0;  }
+.links {font-family: 'Baloo Chettan', cursive;
+    Color: #2F4F4F;
+}
