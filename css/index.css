@@ -1,8 +1,7 @@
 body {background-image: url(1P1070302.jpg);
     background-size: cover; }
 * {margin: 0;}
-#audio { opacity:0.3; color: #2F4F4F;
-     }
+#audio { opacity:0.3;}
 #audio:hover {opacity:1.0;  color: #2F4F4F;}
 .foto {text-align:center;}
 h1, h2 {text-align:center;
@@ -11,10 +10,10 @@ h1, h2 {text-align:center;
   position: fixed;
   top: 0;
   left: 0;
- 
+  width: 10px;
 }
 #bio, #contacts {
-    font-size: 25px ;
+    font-size: 22px ;
     font-family: cursive;
     padding: 5px;
     position: relative;
