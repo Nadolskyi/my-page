@@ -8,28 +8,27 @@
 
     </head>
         <body>
-        <h1>You never know, where is your star</h1>
+            <h1>You never know, where is your star</h1>
         <h1>107 billion people lived on Earth, and all of them looked for happiness</h1>
+            
         <h1>There are many ways..</h1>
-        <div id="page">  
-            <div id="audio">
-                <audio controls width="100px">
+         <div id="page">  
+               <div id="box">
+                <div Id="bio" width="100" >
+                       <a href="//www.facebook.com/profile.php?id=100001512946535" target="_blank">About me</a>
+                </div>
+                <div id="audio">
+                <audio controls>
                 <source src="audio/sunlounger_-_lost_radio_edit.mp3" type="audio/mpeg">
                 </audio>
             </div>
-               <div id="box">
-                <div Id="bio" width="100" >
-                       <a href="#">Bio</a>
-                </div>
-                <div id="contacts" width="100" >
-                       <a href="#">Partners</a>
-            <ul id="partners">
-                <li >  <a href="#">Hoster care center</a></li>
-                <li>
-                  
-                </li>
-                <li >Thank You! </li>
-            </ul>
+                <div>
+                    <ul id="contacts">
+                    <li id="first"><a href="#">Partners</a></li>
+                    <li class="vypad"><a href="http://orphancenter.org.ua/en/" target="_blank">Hoster care center</a></li>
+                    <li class="vypad"><a href="http://kapelanstvo.info/index.php?mod=page&id=newsstudens" target="_blank" >Student Chaplaincy Center</a> </li>
+                    <li class="vypad" ><a href="//www.facebook.com/%D0%A8%D0%BA%D0%BE%D0%BB%D0%B0-%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%82-%D0%9A%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B5%D1%86%D1%8C-608712982635419/?fref=ts" target="_blank">Orphanage in Krakovets</a> </li>
+                    </ul>
                 </div>
         </div>
             <div>
@@ -60,16 +59,18 @@
     <ul id="contact">
         <li > Contact me</li>
         <li>
-          <form method="post" action="https://formspree.io/nadolskyy@i.ua">
-           <input type="text" placeholder="Your Name" name="Name" >
-          <input type="text" placeholder="Your Email" name="Email">
-        <textarea placeholder="Write your message"  name="Question"></textarea>
+          <form id="contact-form">
+           <input type="text" placeholder="Your Name" name="name" id="name" required>
+          <input type="text" placeholder="Your Email" name="email" id="email" required>
+        <textarea placeholder="Write your message"  name="message" id="message" ></textarea>
            <input type="submit" value="send">
             
             </form>
         </li>
         <li >Thank You! </li>
     </ul>
-   
-		</body>
+             <p id="thanks"></p>
+     <script type="text/javascript" src="index.js"></script>
+      <script   src="//code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+             </body>
 </html>
