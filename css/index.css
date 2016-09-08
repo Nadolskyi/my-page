@@ -52,11 +52,13 @@ body {background-image: url(../foto/other/1P1070302.jpg);
     background-size: cover; }
 * {margin: 0;}
 #audio { 
+    position: fixed;
     margin: 5px;
     opacity:0.3;
-    top: 0;
-  left: 0;
+    left: 0;
+    bottom: 0;
 }
+
 #audio:hover {
     
     display: block;
@@ -96,9 +98,7 @@ h2>a:hover{
 #box div li {
     height: 40px;
 }
-#audio {
-    left: 37%;
-}
+
 .clear {
     clear: both;
 }
@@ -163,7 +163,6 @@ h2>a:hover{
 #first a {
     width: 100px;
 }
-
 
 
 

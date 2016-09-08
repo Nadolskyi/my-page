@@ -1,3 +1,6 @@
+$ (function(){
+	$('#btn-send').click(sendForm);
+})
 function sendForm(e) {
     e.preventDefault();
     $.ajax({
@@ -8,9 +11,12 @@ function sendForm(e) {
             email:$('#email').val(),
             message:$('#message').val()
         },
-        dataType: "json",
+        dataType: 'json',
         success: function(){
-            $('#thanks').html('Success!Thank you for contacting us!');
+            $('#contact-form')[0].reset();
         }
     });
 }
+$('#btn-send').click(function(){
+    alert('Success!Thank you for contacting me!');
+});
