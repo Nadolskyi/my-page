@@ -60,26 +60,30 @@ body {background-image: url(../foto/other/1P1070302.jpg);
 }
 
 #audio:hover {
-    
-    display: block;
-    opacity:0.5;
+   opacity:0.5;
     }
 .foto {
     text-align:center;
-        }
+}
 h1, h2 {
     margin: 5px;
     font-size: 25px;
     text-align:center;
     font-family: cursive;
-   }
+    }
 h2>a {
       text-decoration: none;
-}
+      font-family: 'Baloo Chettan', cursive;
+    Color: #5a53b1;
+    }
+.links {
+    position: absolute;
+    left: 50%;
+    }
+
 h2>a:hover{
      background: rgba(153, 150, 242, 0.68);
-    text-decoration: underline;
-}
+    }
 
 #page {
     width: 95%;
@@ -99,9 +103,6 @@ h2>a:hover{
     height: 40px;
 }
 
-.clear {
-    clear: both;
-}
 #bio {
       right: 0;
       position: relative;
@@ -113,9 +114,6 @@ h2>a:hover{
    font-family: 'Baloo Chettan' ;
     text-decoration: none;
    }
-.links {font-family: 'Baloo Chettan', cursive;
-    Color: #5a53b1;
-}
 #box div a:hover {
     background: rgba(153, 150, 242, 0.68);
     text-decoration: underline;
@@ -144,19 +142,19 @@ h2>a:hover{
     transform: rotate(0deg);
     background: rgba(174, 149, 135, 0.77);
 }
-.vypad {
-    position: relative;
-    width: 370px;
-    height: 100%;
-   }
+
 #contacts .vypad{
       top: 100%;
     display: none;
     background: rgba(138, 131, 195, 0.94);
    }
 #contacts .vypad{
-    height: 40px;
+    height: 30px;
    }
+#contacts .vypad a {
+   font-size: 25px;
+    
+}
 #contacts:hover .vypad{
     display: block;
 }
@@ -173,14 +171,36 @@ h2>a:hover{
     height: 270px;
     margin:0;
 }
-
-
-
-
-
-
-
-
+#volonteer {
+    font-size: 25px;
+    display: none;
+}
+.clear {
+    clear: both;
+}
+#lin {
+    height: 40px;
+    }
+#travel {
+    font-size: 25px;
+    display: none;
+}
+#link1 {
+    margin-left: -90px;
+}
+#link2 {
+    margin-left: -59px;
+}
+#craz {
+    font-size: 25px;
+    display: none;
+}
+#link3 {
+    margin-left: -102px;
+}
+.foto {
+    text-shadow: #E4CCA0 0 0 2px;
+}
 
 
 

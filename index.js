@@ -20,3 +20,28 @@ function sendForm(e) {
 $('#btn-send').click(function(){
     alert('Success!Thank you for contacting me!');
 });
+
+
+$('#link1').hover(function() {
+    $('#volonteer').show(500);
+}, function (){
+    $('body').click(function() {
+      $('#volonteer').hide(500);  
+    });
+});
+    
+ $('#link2').hover(function() {
+    $('#travel').show(500);
+}, function (){
+    $('body').click(function() {
+      $('#travel').hide(500);  
+    });
+});
+
+ $('#link3').hover(function() {
+    $('#craz').show(500);
+}, function (){
+    $('body').click(function() {
+      $('#craz').hide(500);  
+    });
+});
