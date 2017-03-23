@@ -51,155 +51,169 @@ table {
 body {background-image: url(../foto/other/1P1070302.jpg);
     background-size: cover; }
 * {margin: 0;}
-#audio { 
-    position: fixed;
-    margin: 5px;
-    opacity:0.3;
-    left: 0;
-    bottom: 0;
+#audio {
+  position: fixed;
+  margin: 5px;
+  opacity: 0.3;
+  left: 0;
+  bottom: 0;
 }
 
 #audio:hover {
-   opacity:0.5;
-    }
+  opacity: 0.5;
+}
+
 .foto {
-    text-align:center;
+  text-align: center;
 }
-h1, h2 {
-    margin: 5px;
-    font-size: 25px;
-    text-align:center;
-    font-family: cursive;
-    }
+
+h1,
+h2 {
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  font-family: cursive;
+}
+
 h2>a {
-      text-decoration: none;
-      font-family: 'Baloo Chettan', cursive;
-    Color: #5a53b1;
-    }
+  text-decoration: none;
+  font-family: 'Baloo Chettan', cursive;
+  Color: #5a53b1;
+}
+
 .links {
-    position: absolute;
-    left: 50%;
-    }
-
-h2>a:hover{
-     background: rgba(153, 150, 242, 0.68);
-    }
-
-#page {
-    width: 95%;
-    margin: 0 auto;
+  position: absolute;
+  left: 50%;
 }
+
+h2>a:hover {
+  background: rgba(153, 150, 242, 0.68);
+}
+
 #box {
-    height: 40px;
-    position: relative;
+  height: 40px;
+  position: relative;
 }
+
 #box div {
-    position: absolute;
-    font-family: cursive;
-    margin-left: 10px;
-    float: left;
+  position: absolute;
+  font-family: cursive;
+  margin-left: 10px;
+  float: left;
 }
+
 #box div li {
-    height: 40px;
+  height: 40px;
 }
 
 #bio {
-      right: 0;
-      position: relative;
-    width: 150px;
-}
-#box div a {
-    font-size: 30px ;
-    color: blueviolet;
-   font-family: 'Baloo Chettan' ;
-    text-decoration: none;
-   }
-#box div a:hover {
-    background: rgba(153, 150, 242, 0.68);
-    text-decoration: underline;
-}
-#contact {
-    opacity: 0.7;
-    width: 170px;
-    height: 30px;
-   transform: rotate(-90deg);
-    position: fixed;
-      bottom: 100px;
-  right: -70px;
-    font-family: 'Baloo Chettan' ;
-    font-size: 30px ;
-}
-#contact li:last-child {
-       background: rgba(174, 149, 135, 0.77);
-;
-}
-#contact:hover{
-     bottom: 200px;
-    margin: 1px;
-   opacity: 1;
-    right: 0;
-    width: 200px;
-    transform: rotate(0deg);
-    background: rgba(174, 149, 135, 0.77);
+  right: 0;
+  position: relative;
+  width: 150px;
 }
 
-#contacts .vypad{
-      top: 100%;
-    display: none;
-    background: rgba(138, 131, 195, 0.94);
-   }
-#contacts .vypad{
-    height: 30px;
-   }
+#box div a {
+  font-size: 30px;
+  color: blueviolet;
+  font-family: 'Baloo Chettan';
+  text-decoration: none;
+}
+
+#box div a:hover {
+  background: rgba(153, 150, 242, 0.68);
+  text-decoration: underline;
+}
+
+#contact {
+  opacity: 0.7;
+  width: 170px;
+  height: 30px;
+  transform: rotate(-90deg);
+  position: fixed;
+  bottom: 100px;
+  right: -70px;
+  font-family: 'Baloo Chettan';
+  font-size: 30px;
+}
+#contact li form {
+  font-size: 15px;
+  font-family: Times;
+}
+#contact:hover {
+  bottom: 200px;
+  margin: 1px;
+  opacity: 1;
+  right: 0;
+  width: 200px;
+  transform: rotate(0deg);
+}
+
+#contacts .vypad {
+  top: 100%;
+  display: none;
+  background: rgba(138, 131, 195, 0.94);
+  height: 30px;
+}
+
 #contacts .vypad a {
-   font-size: 25px;
-    
+  font-size: 25px;
 }
-#contacts:hover .vypad{
-    display: block;
+
+#contacts:hover .vypad {
+  display: block;
 }
+
 #first a {
-    width: 100px;
+  width: 100px;
 }
 
 .foto img {
-    margin: 10px;
-    height: 210px;
+  margin: 10px;
+  height: 210px;
 }
 
 .foto img:hover {
-    height: 270px;
-    margin:0;
+  height: 270px;
+  margin: 0;
 }
+
 #volonteer {
-    font-size: 25px;
-    display: none;
+  font-size: 25px;
+  display: none;
 }
+
 .clear {
-    clear: both;
+  clear: both;
 }
-#lin {
-    height: 40px;
-    }
+
+.lin {
+  height: 40px;
+}
+
 #travel {
-    font-size: 25px;
-    display: none;
+  font-size: 25px;
+  display: none;
 }
-#link1 {
-    margin-left: -90px;
-}
-#link2 {
-    margin-left: -59px;
-}
+
 #craz {
-    font-size: 25px;
-    display: none;
+  font-size: 25px;
+  display: none;
 }
+
+#link1 {
+  margin-left: -90px;
+}
+
+#link2 {
+  margin-left: -59px;
+}
+
 #link3 {
-    margin-left: -102px;
+  margin-left: -102px;
 }
+
 .foto {
-    text-shadow: #E4CCA0 0 0 2px;
+  text-shadow: #E4CCA0 0 0 2px;
 }
 
 
