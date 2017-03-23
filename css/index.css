@@ -47,10 +47,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-body {background-image: url(../foto/other/1P1070302.jpg);
-    background-size: cover; }
 * {margin: 0;}
+
+body {
+  background-image: url(../foto/other/background.jpg);
+  background-size: cover;
+}
+
 #audio {
   position: fixed;
   margin: 5px;
@@ -135,10 +138,12 @@ h2>a:hover {
   font-family: 'Baloo Chettan';
   font-size: 30px;
 }
+
 #contact li form {
   font-size: 15px;
   font-family: Times;
 }
+
 #contact:hover {
   bottom: 200px;
   margin: 1px;
@@ -215,6 +220,3 @@ h2>a:hover {
 .foto {
   text-shadow: #E4CCA0 0 0 2px;
 }
-
-
-
